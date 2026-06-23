@@ -1,0 +1,2 @@
+import{b as e}from"https://app.framerstatic.com/chunk-W5B64E4R.mjs";import{a as n}from"https://app.framerstatic.com/chunk-SJONTHBI.mjs";import{e as r}from"https://app.framerstatic.com/chunk-XELMBOBL.mjs";var t=r(n(),1);function i(){let o=e("panelPadding");return(0,t.useMemo)(()=>({top:o,right:-o,bottom:-o,left:o}),[o])}export{i as a};
+//# sourceMappingURL=https://app.framerstatic.com/chunk-YZF2C4V5.mjs.map

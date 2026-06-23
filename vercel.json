@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/admin(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/terms",
+      "dest": "/breakable-works-007788.framer.app/terms/index.html"
+    },
+    {
+      "src": "/privacy-policy",
+      "dest": "/breakable-works-007788.framer.app/privacy-policy/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/breakable-works-007788.framer.app/$1"
+    }
+  ]
+}
