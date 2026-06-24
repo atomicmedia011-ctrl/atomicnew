@@ -161,7 +161,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function(props, ref) {
                                     className: "framer-styles-preset-3j1c0u",
                                     "data-styles-preset": "fdldKf5t1",
                                     dir: "auto",
-                                    children: "Joseph Alexander"
+                                    children: "ATOMIC MEDIA"
                                 })
                             }),
                             className: "framer-1wpem65",
@@ -186,7 +186,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function(props, ref) {
                                         "--framer-text-color": "var(--extracted-r6o4lv, var(--token-994646e0-68ea-49d7-897a-104048558f6f, rgb(84, 84, 84)))"
                                     },
                                     children: /*#__PURE__*/ _jsx(Link, {
-                                        href: "mailto:joseph@launchnow.design",
+                                        href: "mailto:info@atomicmedia.in",
                                         motionChild: true,
                                         nodeId: "PrJCLea1Y",
                                         openInNewTab: true,
@@ -196,7 +196,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function(props, ref) {
                                         children: /*#__PURE__*/ _jsx(motion.a, {
                                             className: "framer-styles-preset-1pmp3vy",
                                             "data-styles-preset": "aAdohScXF",
-                                            children: "joseph@launchnow.design"
+                                            children: "info@atomicmedia.in"
                                         })
                                     })
                                 })

@@ -113,7 +113,7 @@ const getProps = ({
         iLSSd0G_p: role ? ? props.iLSSd0G_p ? ? "Customer Manager at SupportEase",
         oAP3LPOjN: quote ? ? props.oAP3LPOjN ? ? /*#__PURE__*/ _jsx(React.Fragment, {
             children: /*#__PURE__*/ _jsxs(motion.p, {
-                children: ["Working with Joseph felt like having a seasoned design partner ", /*#__PURE__*/ _jsx(motion.strong, {
+                children: ["Working with atomic media felt like having a seasoned design partner ", /*#__PURE__*/ _jsx(motion.strong, {
                     children: "who truly understood our vision for Zazzle "
                 }), "and brought it to life in ways we hadn't even imagined."]
             })
@@ -520,7 +520,7 @@ Framerb5_f4Rs4a.defaultProps = {
 };
 addPropertyControls(Framerb5_f4Rs4a, {
     oAP3LPOjN: {
-        defaultValue: "<p>Working with Joseph felt like having a seasoned design partner <strong>who truly understood our vision for Zazzle </strong>and brought it to life in ways we hadn't even imagined.</p>",
+        defaultValue: "<p>Working with atomic media felt like having a seasoned design partner <strong>who truly understood our vision for Zazzle </strong>and brought it to life in ways we hadn't even imagined.</p>",
         title: "Quote",
         type: ControlType.RichText
     },

@@ -257,7 +257,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function(props, ref) {
                         }
                     }, baseVariant, gestureVariant),
                     children: [ /*#__PURE__*/ _jsx(Link, {
-                        href: "https://x.com/JosephAlexWeb",
+                        href: "https://x.com/atomic_media",
                         motionChild: true,
                         nodeId: "r_lm6Z43P",
                         openInNewTab: false,
@@ -357,7 +357,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function(props, ref) {
                             })]
                         })
                     }), /*#__PURE__*/ _jsx(Link, {
-                        href: "https://www.instagram.com",
+                        href: "https://www.instagram.com/atomic.media.in?igsh=MWFrbGh3a3ppbnMwaQ==",
                         motionChild: true,
                         nodeId: "yO47bIXS5",
                         openInNewTab: false,
@@ -567,7 +567,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function(props, ref) {
                             })
                         })
                     }), /*#__PURE__*/ _jsx(Link, {
-                        href: "https://www.linkedin.com/",
+                        href: "https://www.linkedin.com/company/atomic-mediaa/",
                         motionChild: true,
                         nodeId: "wgs4fW3qp",
                         openInNewTab: false,

@@ -13617,7 +13617,7 @@
                             </div>
                             <div class="framer-4os20q-container">
                                 <!--$-->
-                                <div style="font-size:12px;color:var(--token-4d926bee-328f-497f-a3cd-ce0b138f5bc3, rgb(184, 184, 184));font-family:&quot;Switzer&quot;, &quot;Switzer Placeholder&quot;, sans-serif;font-style:normal;font-weight:600;letter-spacing:0em;line-height:1em">© 2026 Joseph Alexander</div>
+                                <div style="font-size:12px;color:var(--token-4d926bee-328f-497f-a3cd-ce0b138f5bc3, rgb(184, 184, 184));font-family:&quot;Switzer&quot;, &quot;Switzer Placeholder&quot;, sans-serif;font-style:normal;font-weight:600;letter-spacing:0em;line-height:1em">© 2026 Atomic Media</div>
                                 <!--/$-->
                             </div>
                         </div>
@@ -13767,7 +13767,7 @@
                             </div>
                             <div class="framer-4os20q-container">
                                 <!--$-->
-                                <div style="font-size:12px;color:var(--token-4d926bee-328f-497f-a3cd-ce0b138f5bc3, rgb(184, 184, 184));font-family:&quot;Switzer&quot;, &quot;Switzer Placeholder&quot;, sans-serif;font-style:normal;font-weight:600;letter-spacing:0em;line-height:1em">© 2026 Joseph Alexander</div>
+                                <div style="font-size:12px;color:var(--token-4d926bee-328f-497f-a3cd-ce0b138f5bc3, rgb(184, 184, 184));font-family:&quot;Switzer&quot;, &quot;Switzer Placeholder&quot;, sans-serif;font-style:normal;font-weight:600;letter-spacing:0em;line-height:1em">© 2026 Atomic Media</div>
                                 <!--/$-->
                             </div>
                         </div>
@@ -13917,7 +13917,7 @@
                             </div>
                             <div class="framer-4os20q-container">
                                 <!--$-->
-                                <div style="font-size:12px;color:var(--token-4d926bee-328f-497f-a3cd-ce0b138f5bc3, rgb(184, 184, 184));font-family:&quot;Switzer&quot;, &quot;Switzer Placeholder&quot;, sans-serif;font-style:normal;font-weight:600;letter-spacing:0em;line-height:1em">© 2026 Joseph Alexander</div>
+                                <div style="font-size:12px;color:var(--token-4d926bee-328f-497f-a3cd-ce0b138f5bc3, rgb(184, 184, 184));font-family:&quot;Switzer&quot;, &quot;Switzer Placeholder&quot;, sans-serif;font-style:normal;font-weight:600;letter-spacing:0em;line-height:1em">© 2026 Atomic Media</div>
                                 <!--/$-->
                             </div>
                         </div>
@@ -15486,6 +15486,149 @@
     </script>
     </div>
     <!-- End of bodyEnd -->
+    
+    <!-- Theme Toggle and Card Glow System -->
+    <style>
+      /* --- Orange Gradient Glow on Cards --- */
+      .dynamic-card,
+      .dynamic-service-item,
+      [data-framer-name="Desktop"][href*="projects"],
+      [data-framer-name="Phone"][href*="projects"],
+      [data-framer-name="Testimonial Card"],
+      [data-framer-name="Tool Logo"][data-border="true"] {
+        position: relative;
+        box-shadow: 0 0 15px rgba(255, 110, 0, 0.2), 0 0 30px rgba(255, 60, 0, 0.1) !important;
+        transition: box-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+      }
+      
+      .dynamic-card:hover,
+      .dynamic-service-item:hover,
+      [data-framer-name="Desktop"][href*="projects"]:hover,
+      [data-framer-name="Phone"][href*="projects"]:hover,
+      [data-framer-name="Testimonial Card"]:hover,
+      [data-framer-name="Tool Logo"][data-border="true"]:hover {
+        box-shadow: 0 0 25px rgba(255, 110, 0, 0.45), 0 0 50px rgba(255, 60, 0, 0.25) !important;
+        transform: translateY(-2px) !important;
+      }
+
+      /* --- Theme Toggle Button --- */
+      #theme-toggle-btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        border: 2px solid rgba(255, 110, 0, 0.4);
+        background: rgba(20, 20, 20, 0.85);
+        color: #ffffff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 999999;
+        box-shadow: 0 4px 20px rgba(255, 110, 0, 0.25);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      
+      #theme-toggle-btn:hover {
+        transform: scale(1.1) rotate(15deg);
+        border-color: rgba(255, 110, 0, 0.8);
+        box-shadow: 0 6px 30px rgba(255, 110, 0, 0.45);
+      }
+      
+      #theme-toggle-btn svg {
+        width: 22px;
+        height: 22px;
+        fill: currentColor;
+        transition: transform 0.4s ease;
+      }
+
+      /* --- Light Mode CSS Overrides --- */
+      html[data-theme="light"] {
+        /* CSS custom property overrides for white background / dark text */
+        --token-2759885a-0605-4b0d-ae5f-9a938c3766f2: #ffffff !important; /* Bg color to white */
+        --token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f: #111111 !important; /* Text color to dark */
+        --token-994646e0-68ea-49d7-897a-104048558f6f: #444444 !important; /* Secondary text to dark gray */
+        --token-e9da154a-5244-47e2-a82c-8b7a09fdea51: rgba(255, 110, 0, 0.05) !important; /* Accent bg */
+      }
+      
+      html[data-theme="light"] #theme-toggle-btn {
+        background: rgba(255, 255, 255, 0.85);
+        color: #111111;
+        border-color: rgba(255, 110, 0, 0.3);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Global transitions for theme elements */
+      html, body, #main, div, p, span, h1, h2, h3, a {
+        transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease !important;
+      }
+    </style>
+
+    <button id="theme-toggle-btn" aria-label="Toggle Theme">
+      <!-- Moon Icon (Dark Mode active / click to go Light) -->
+      <svg id="theme-icon-moon" viewBox="0 0 24 24" style="display: block;">
+        <path d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.5-.1 1 .2 1.2.7.2.5 0 1.1-.4 1.4-2.8 1.9-4.3 5.2-3.8 8.6.6 4 3.9 7.2 7.9 7.6 3.4.4 6.7-1.1 8.6-3.8.3-.4.9-.6 1.4-.4.5.2.8.7.7 1.2-.9 4.7-5 8.2-9.8 8.2z"/>
+      </svg>
+      <!-- Sun Icon (Light Mode active / click to go Dark) -->
+      <svg id="theme-icon-sun" viewBox="0 0 24 24" style="display: none;">
+        <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zM7.05 18.01c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06z"/>
+      </svg>
+    </button>
+
+    <script>
+      (function() {
+        const btn = document.getElementById('theme-toggle-btn');
+        const moonIcon = document.getElementById('theme-icon-moon');
+        const sunIcon = document.getElementById('theme-icon-sun');
+        const html = document.documentElement;
+
+        function applyTheme(theme) {
+          html.setAttribute('data-theme', theme);
+          localStorage.setItem('theme', theme);
+          
+          if (theme === 'light') {
+            moonIcon.style.display = 'none';
+            sunIcon.style.display = 'block';
+            
+            // Inject inline styles on body/main dynamically to override dark colors
+            document.body.style.backgroundColor = '#ffffff';
+            const mainEl = document.getElementById('main');
+            if (mainEl) mainEl.style.backgroundColor = '#ffffff';
+          } else {
+            moonIcon.style.display = 'block';
+            sunIcon.style.display = 'none';
+            document.body.style.backgroundColor = '';
+            const mainEl = document.getElementById('main');
+            if (mainEl) mainEl.style.backgroundColor = '';
+          }
+        }
+
+        // Initialize theme from storage or default to dark
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        applyTheme(savedTheme);
+
+        btn.addEventListener('click', () => {
+          const currentTheme = html.getAttribute('data-theme') || 'dark';
+          const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+          applyTheme(nextTheme);
+        });
+
+        // Set up mutation observer to keep light mode styles applied to dynamic children
+        const observer = new MutationObserver(() => {
+          const theme = html.getAttribute('data-theme') || 'dark';
+          if (theme === 'light') {
+            document.body.style.backgroundColor = '#ffffff';
+            const mainEl = document.getElementById('main');
+            if (mainEl) mainEl.style.backgroundColor = '#ffffff';
+          }
+        });
+        observer.observe(html, { attributes: true, attributeFilter: ['data-theme'] });
+      })();
+    </script>
 </body>
 
 </html>

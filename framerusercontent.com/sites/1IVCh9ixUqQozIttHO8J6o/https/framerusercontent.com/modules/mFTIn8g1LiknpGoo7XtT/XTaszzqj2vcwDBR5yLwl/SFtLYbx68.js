@@ -323,7 +323,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function(props, ref) {
                                                     "--framer-text-color": "var(--extracted-r6o4lv, var(--token-33c8dbd0-eb94-4e90-8099-e7a3fee4ad2f, rgb(255, 255, 255)))"
                                                 },
                                                 children: /*#__PURE__*/ _jsx(Link, {
-                                                    href: "mailto:joseph@launchnow.design",
+                                                    href: "mailto:info@atomicmedia.in",
                                                     motionChild: true,
                                                     nodeId: "F2raTtVYa",
                                                     openInNewTab: true,
@@ -808,7 +808,7 @@ const Component = /*#__PURE__*/ React.forwardRef(function(props, ref) {
                                             height: "100%",
                                             id: "pfDT8vyUL",
                                             layoutId: "pfDT8vyUL",
-                                            name: "Joseph Alexander",
+                                            name: "ATOMIC MEDIA",
                                             startYear: 2024,
                                             statement: "",
                                             width: "100%"

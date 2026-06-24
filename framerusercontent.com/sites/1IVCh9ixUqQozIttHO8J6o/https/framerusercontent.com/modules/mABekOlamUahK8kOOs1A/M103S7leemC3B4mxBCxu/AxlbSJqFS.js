@@ -132,7 +132,7 @@ const getProps = ({
         bpIEBcjHl: name1 ? ? props.bpIEBcjHl ? ? "Thomas Weber",
         hvDPmZS7s: quote ? ? props.hvDPmZS7s ? ? /*#__PURE__*/ _jsx(React.Fragment, {
             children: /*#__PURE__*/ _jsxs(motion.p, {
-                children: ['"Working with Joseph felt like having a seasoned design partner ', /*#__PURE__*/ _jsx(motion.strong, {
+                children: ['"Working with atomic media felt like having a seasoned design partner ', /*#__PURE__*/ _jsx(motion.strong, {
                     children: "who truly understood our vision for Zazzle "
                 }), "and brought it to life in ways we hadn't even imagined.\""]
             })
@@ -355,7 +355,7 @@ FramerAxlbSJqFS.defaultProps = {
 };
 addPropertyControls(FramerAxlbSJqFS, {
     hvDPmZS7s: {
-        defaultValue: '<p>"Working with Joseph felt like having a seasoned design partner <strong>who truly understood our vision for Zazzle </strong>and brought it to life in ways we hadn\'t even imagined."</p>',
+        defaultValue: '<p>"Working with atomic media felt like having a seasoned design partner <strong>who truly understood our vision for Zazzle </strong>and brought it to life in ways we hadn\'t even imagined."</p>',
         description: "",
         title: "Quote",
         type: ControlType.RichText
