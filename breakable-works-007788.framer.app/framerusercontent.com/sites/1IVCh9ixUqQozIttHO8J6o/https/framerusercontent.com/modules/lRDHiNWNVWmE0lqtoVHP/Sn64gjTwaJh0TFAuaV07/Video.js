@@ -1,4 +1,4 @@
-// ⚠️⚠️⚠️⚠️⚠️
+﻿// ⚠️⚠️⚠️⚠️⚠️
 // Edit these files in https://github.com/framer/FramerCodeComponents
 // ⚠️⚠️⚠️⚠️⚠️
 import {
@@ -23,7 +23,7 @@ import {
     useOnExit,
     useRadius,
     useRenderTarget
-} from "https://framerusercontent.com/modules/G4IfyjvwmaeSBpdb4TWu/OIjZRBmWDcIE2B6qgG1j/index.js"; // https://framer.com/m/framer/default-utils.js@^0.45.0
+} from "/framerusercontent.com/modules/G4IfyjvwmaeSBpdb4TWu/OIjZRBmWDcIE2B6qgG1j/index.js"; // https://framer.com/m/framer/default-utils.js@^0.45.0
 import {
     memo,
     useCallback,
@@ -45,7 +45,7 @@ var SrcType;
     SrcType["Video"] = "Upload";
     SrcType["Url"] = "URL";
 })(SrcType || (SrcType = {}));
-const defaultVideo = "https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4"; // Reduce renders
+const defaultVideo = "/framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4"; // Reduce renders
 function getProps(props) {
     const {
         width,
@@ -282,7 +282,7 @@ const VideoMemo = /*#__PURE__*/ memo(function VideoInner(props) {
         autoPlay: isPlaying.current || autoplayBehavior === "on-mount" || playingProp && autoplayBehavior === "on-viewport" && isInViewport,
         preload: isPlaying.current ? "auto" : isStaticRenderer && !poster ? "metadata" : autoplayBehavior !== "on-mount" && !isCloseToViewport ? "none" : // `autoplay` overrides this too
             "metadata",
-        poster: posterEnabled && !srcFile && srcUrl === defaultVideo ? "https://framerusercontent.com/images/5ILRvlYXf72kHSVHqpa3snGzjU.jpg" : posterEnabled && poster ? poster : undefined,
+        poster: posterEnabled && !srcFile && srcUrl === defaultVideo ? "/framerusercontent.com/images/5ILRvlYXf72kHSVHqpa3snGzjU.jpg" : posterEnabled && poster ? poster : undefined,
         onLoadedData: handleReady,
         controls: controls,
         muted: isStaticRenderer ? true : muted,
@@ -319,7 +319,7 @@ addPropertyControls(Video, {
     srcUrl: {
         type: ControlType.String,
         title: "URL",
-        defaultValue: "https://framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4",
+        defaultValue: "/framerusercontent.com/assets/MLWPbW1dUQawJLhhun3dBwpgJak.mp4",
         hidden(props) {
             return props.srcType === "Upload";
         }

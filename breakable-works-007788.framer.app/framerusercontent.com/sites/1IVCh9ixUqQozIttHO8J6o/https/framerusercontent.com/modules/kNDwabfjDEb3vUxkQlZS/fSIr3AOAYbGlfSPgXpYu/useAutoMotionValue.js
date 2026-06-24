@@ -1,4 +1,4 @@
-import {
+﻿import {
     useCallback,
     useEffect,
     useRef
@@ -11,11 +11,11 @@ import {
 // @ts-ignore
 import {
     isMotionValue
-} from "https://framerusercontent.com/modules/3mKFSGQqKHV82uOV1eBc/5fbRLvOpxZC0JOXugvwm/isMotionValue.js";
+} from "/framerusercontent.com/modules/3mKFSGQqKHV82uOV1eBc/5fbRLvOpxZC0JOXugvwm/isMotionValue.js";
 // @ts-ignore
 import {
     useConstant
-} from "https://framerusercontent.com/modules/ExNgrA7EJTKUPpH6vIlN/eiOrSJ2Ab5M9jPCvVwUz/useConstant.js";
+} from "/framerusercontent.com/modules/ExNgrA7EJTKUPpH6vIlN/eiOrSJ2Ab5M9jPCvVwUz/useConstant.js";
 export function useAutoMotionValue(inputValue, options) {
     var ref;
     // Put options on a local ref

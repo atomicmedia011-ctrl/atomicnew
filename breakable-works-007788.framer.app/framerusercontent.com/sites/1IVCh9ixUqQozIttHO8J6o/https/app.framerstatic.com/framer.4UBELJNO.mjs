@@ -1,4 +1,4 @@
-import {
+﻿import {
   AnimatePresence,
   AsyncMotionValueAnimation,
   DOMKeyframesResolver,
@@ -43872,7 +43872,7 @@ function upgradeToComponentFontV2(font) {
   let source;
   if (font.url.startsWith("https://fonts.gstatic.com/s/")) {
     source = "google" /* Google */;
-  } else if (font.url.startsWith("https://framerusercontent.com/third-party-assets/fontshare/")) {
+  } else if (font.url.startsWith("/framerusercontent.com/third-party-assets/fontshare/")) {
     source = "fontshare" /* Fontshare */;
   } else {
     source = "custom" /* Custom */;
@@ -44909,3 +44909,4 @@ react-is/cjs/react-is.production.min.js:
    *)
 */
 //# sourceMappingURL=framer.4UBELJNO.mjs.map
+

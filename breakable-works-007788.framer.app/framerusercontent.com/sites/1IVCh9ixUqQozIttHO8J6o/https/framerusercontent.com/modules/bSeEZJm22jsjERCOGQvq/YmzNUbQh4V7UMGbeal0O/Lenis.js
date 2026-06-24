@@ -1,4 +1,4 @@
-import {
+﻿import {
     jsx as _jsx,
     jsxs as _jsxs,
     Fragment as _Fragment
@@ -7,8 +7,8 @@ import {
     addPropertyControls,
     ControlType
 } from "framer";
-import Lenis from "https://unpkg.com/lenis@1.3.23/dist/lenis.mjs";
-import Snap from "https://unpkg.com/lenis@1.3.23/dist/lenis-snap.mjs";
+import Lenis from "/unpkg.com/lenis@1.3.23/dist/lenis.mjs";
+import Snap from "/unpkg.com/lenis@1.3.23/dist/lenis-snap.mjs";
 import {
     useEffect,
     useRef,
@@ -101,7 +101,7 @@ export default function Component({
     // }, [])
     return /*#__PURE__*/ _jsxs(_Fragment, {
         children: [ /*#__PURE__*/ _jsx("link", {
-            href: "https://unpkg.com/lenis@1.3.23/dist/lenis.css",
+            href: "/unpkg.com/lenis@1.3.23/dist/lenis.css",
             rel: "stylesheet"
         }), children && /*#__PURE__*/ _jsx(_Fragment, {
             children: /*#__PURE__*/ _jsx("div", {

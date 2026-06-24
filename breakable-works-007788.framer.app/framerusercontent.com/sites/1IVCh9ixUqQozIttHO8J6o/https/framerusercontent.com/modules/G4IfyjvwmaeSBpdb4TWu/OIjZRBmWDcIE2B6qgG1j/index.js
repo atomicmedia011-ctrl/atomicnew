@@ -1,4 +1,4 @@
-import {
+﻿import {
     defaultEvents,
     localeOptions,
     fontControls,
@@ -6,62 +6,62 @@ import {
     emptyStateStyle,
     containerStyles,
     fontStack
-} from "https://framerusercontent.com/modules/VTUDdizacRHpwbkOamr7/AykinQJbgwl92LvMGZwu/constants.js";
+} from "/framerusercontent.com/modules/VTUDdizacRHpwbkOamr7/AykinQJbgwl92LvMGZwu/constants.js";
 import {
     useOnEnter,
     useOnExit
-} from "https://framerusercontent.com/modules/D4TWeLfcxT6Tysr2BlYg/iZjmqdxVx1EOiM3k1FaW/useOnNavigationTargetChange.js";
+} from "/framerusercontent.com/modules/D4TWeLfcxT6Tysr2BlYg/iZjmqdxVx1EOiM3k1FaW/useOnNavigationTargetChange.js";
 import {
     useConstant
-} from "https://framerusercontent.com/modules/ExNgrA7EJTKUPpH6vIlN/eiOrSJ2Ab5M9jPCvVwUz/useConstant.js";
+} from "/framerusercontent.com/modules/ExNgrA7EJTKUPpH6vIlN/eiOrSJ2Ab5M9jPCvVwUz/useConstant.js";
 import {
     colorTokentoValue,
     colorFromToken
-} from "https://framerusercontent.com/modules/D2Lz5CmnNVPZFFiZXalt/QaCzPbriZBfXWZIIycFI/colorFromToken.js";
+} from "/framerusercontent.com/modules/D2Lz5CmnNVPZFFiZXalt/QaCzPbriZBfXWZIIycFI/colorFromToken.js";
 import {
     isMotionValue
-} from "https://framerusercontent.com/modules/3mKFSGQqKHV82uOV1eBc/5fbRLvOpxZC0JOXugvwm/isMotionValue.js";
+} from "/framerusercontent.com/modules/3mKFSGQqKHV82uOV1eBc/5fbRLvOpxZC0JOXugvwm/isMotionValue.js";
 import {
     useUniqueClassName,
     randomID
-} from "https://framerusercontent.com/modules/xDiQsqBGXzmMsv7AlEVy/uhunpMiNsbXxzjlXsg1y/useUniqueClassName.js";
+} from "/framerusercontent.com/modules/xDiQsqBGXzmMsv7AlEVy/uhunpMiNsbXxzjlXsg1y/useUniqueClassName.js";
 import {
     getVariantControls
-} from "https://framerusercontent.com/modules/ETACN5BJyFTSo0VVDJfu/NHRqowOiXkF9UwOzczF7/variantUtils.js";
+} from "/framerusercontent.com/modules/ETACN5BJyFTSo0VVDJfu/NHRqowOiXkF9UwOzczF7/variantUtils.js";
 import {
     useIsBrowserSafari
-} from "https://framerusercontent.com/modules/eMBrwoqQK7h6mEeGQUH8/GuplvPJVjmxpk9zqOTcb/isBrowser.js";
+} from "/framerusercontent.com/modules/eMBrwoqQK7h6mEeGQUH8/GuplvPJVjmxpk9zqOTcb/isBrowser.js";
 import {
     useMultiOnChange,
     useOnChange
-} from "https://framerusercontent.com/modules/v9AWX2URmiYsHf7GbctE/XxKAZ9KlhWqf5x1JMyyF/useOnChange.js";
+} from "/framerusercontent.com/modules/v9AWX2URmiYsHf7GbctE/XxKAZ9KlhWqf5x1JMyyF/useOnChange.js";
 import {
     mstoMinAndSec,
     secondsToMinutes
-} from "https://framerusercontent.com/modules/4zHZnO5JojN1PrIbu2jm/revv9QCWpkh8lPzi2jje/time.js";
+} from "/framerusercontent.com/modules/4zHZnO5JojN1PrIbu2jm/revv9QCWpkh8lPzi2jje/time.js";
 import {
     useAutoMotionValue
-} from "https://framerusercontent.com/modules/kNDwabfjDEb3vUxkQlZS/fSIr3AOAYbGlfSPgXpYu/useAutoMotionValue.js";
+} from "/framerusercontent.com/modules/kNDwabfjDEb3vUxkQlZS/fSIr3AOAYbGlfSPgXpYu/useAutoMotionValue.js";
 import {
     useFontControls
-} from "https://framerusercontent.com/modules/cuQH4dmpDnV8YK1mSgQX/KqRXqunFjE6ufhpc7ZRu/useFontControls.js";
+} from "/framerusercontent.com/modules/cuQH4dmpDnV8YK1mSgQX/KqRXqunFjE6ufhpc7ZRu/useFontControls.js";
 import {
     useRenderTarget,
     useIsInPreview,
     useIsOnCanvas
-} from "https://framerusercontent.com/modules/afBE9Yx1W6bY5q32qPxe/m3q7puE2tbo1S2C0s0CT/useRenderTarget.js";
+} from "/framerusercontent.com/modules/afBE9Yx1W6bY5q32qPxe/m3q7puE2tbo1S2C0s0CT/useRenderTarget.js";
 import {
     useControlledState
-} from "https://framerusercontent.com/modules/zGkoP8tPDCkoBzMdt5uq/0zFSjxIYliHxrQQnryFX/useControlledState.js";
+} from "/framerusercontent.com/modules/zGkoP8tPDCkoBzMdt5uq/0zFSjxIYliHxrQQnryFX/useControlledState.js";
 import {
     usePadding,
     useRadius,
     paddingControl,
     borderRadiusControl
-} from "https://framerusercontent.com/modules/5SM58HxZHxjjv7aLMOgQ/WXz9i6mVki0bBCrKdqB3/propUtils.js";
+} from "/framerusercontent.com/modules/5SM58HxZHxjjv7aLMOgQ/WXz9i6mVki0bBCrKdqB3/propUtils.js";
 import {
     detectAutoSizingAxis
-} from "https://framerusercontent.com/modules/8CkHAZatUz1UR8jNTcfD/HwbnIAZlUmQ2oTpcLkaH/detectAutoSizingAxis.js";
+} from "/framerusercontent.com/modules/8CkHAZatUz1UR8jNTcfD/HwbnIAZlUmQ2oTpcLkaH/detectAutoSizingAxis.js";
 export {
     useOnEnter,
     useOnExit,
